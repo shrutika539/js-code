@@ -1,0 +1,24 @@
+"use strict"; //whenever we can used  strict then it can be treat all js code as newer version
+
+//alert( 3 + 3)//we are using node js ,not browser
+
+console.log(3 + 3); // code redability should be high
+console.log("hitesh");
+
+let name = "hitesh"
+let age = 12
+let isLoggedIn = false
+
+//number => 2 to the power 53
+//bigint => larger than 2 to the power 53
+//string => "",''
+//boolean => true/false
+//nill => standalone value
+//undefined => variable value not assigned
+//symbol => unique
+//object=> key value pair
+
+console.log(typeof name);
+console.table({name, age, isLoggedIn})
+console.log(typeof null);
+console.log(typeof undefined);//undefined
